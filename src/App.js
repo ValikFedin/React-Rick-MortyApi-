@@ -1,12 +1,15 @@
 import React from 'react';
 import CharacterList from "./Characters/characters"
+import Style from "./Characters/characters.view";
 
 const App =(props) =>{
   return (
-    <div>
+    <Style.MainContainer >
       <CharacterList/>
-    </div>
+    </Style.MainContainer>
   )
 }
+
+
 
 export default App;
