@@ -30,14 +30,17 @@ class CharacterList extends Component{
             prev: "",
             currentPage: 1,
             isFirstPage: false,
-            isLastPage: false
+            isLastPage: false,
+            isLoading: true
         }
         this.getToUsers();
         
     }
     getToUsers = (page) => {
+        this.setState({isLoading: true});
         axios.get(page || `https://rickandmortyapi.com/api/character/`)
         .then(({data}) => {
+            this.setState({isLoading: false});
             this.setState({characters: data.results});
             this.setState({next: data.info.next});
             this.setState({prev: data.info.prev});
@@ -65,12 +68,19 @@ class CharacterList extends Component{
     }
       render() {
         return(
-          <div>
-              <div>
+            
+    <div>
+        <div>
+         {  this.state.isLoading ? 
+            <Style.LoaderWrapper><Style.Loading src="http://cdn.shopify.com/s/files/1/0257/6087/products/ff0a8f6d7a972a61ea919ce1ab3e3627.png?v=1557444693" alt=" "/></Style.LoaderWrapper>
+            :
+        <div>
           {this.state.characters ?  this.state.characters.map(character =>
               <Character {...character} key = {character.id} />
             ): ''
         } 
+        </div>
+         }
         </div>
         { this.state.isFirstPage ?
         <div>
@@ -89,6 +99,7 @@ class CharacterList extends Component{
         </div>
         }
           </div>
+
         )
       }
     }
