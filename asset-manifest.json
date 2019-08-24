@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.34de6062.chunk.css",
-    "main.js": "/static/js/main.d47644ea.chunk.js",
-    "main.js.map": "/static/js/main.d47644ea.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.077bb605.js",
-    "runtime~main.js.map": "/static/js/runtime~main.077bb605.js.map",
-    "static/js/2.ccf28487.chunk.js": "/static/js/2.ccf28487.chunk.js",
-    "static/js/2.ccf28487.chunk.js.map": "/static/js/2.ccf28487.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7e3f1d48a64dbcf152eea5450e5a2bc8.js": "/precache-manifest.7e3f1d48a64dbcf152eea5450e5a2bc8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map"
+    "main.css": "/React-Rick-MortyApi-/static/css/main.34de6062.chunk.css",
+    "main.js": "/React-Rick-MortyApi-/static/js/main.53c4e1b8.chunk.js",
+    "main.js.map": "/React-Rick-MortyApi-/static/js/main.53c4e1b8.chunk.js.map",
+    "runtime~main.js": "/React-Rick-MortyApi-/static/js/runtime~main.ec78d7e7.js",
+    "runtime~main.js.map": "/React-Rick-MortyApi-/static/js/runtime~main.ec78d7e7.js.map",
+    "static/js/2.9503b023.chunk.js": "/React-Rick-MortyApi-/static/js/2.9503b023.chunk.js",
+    "static/js/2.9503b023.chunk.js.map": "/React-Rick-MortyApi-/static/js/2.9503b023.chunk.js.map",
+    "index.html": "/React-Rick-MortyApi-/index.html",
+    "precache-manifest.3ea83695845bae6e965e8b0d1036cd4f.js": "/React-Rick-MortyApi-/precache-manifest.3ea83695845bae6e965e8b0d1036cd4f.js",
+    "service-worker.js": "/React-Rick-MortyApi-/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/React-Rick-MortyApi-/static/css/main.34de6062.chunk.css.map"
   }
 }
